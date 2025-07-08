@@ -16,11 +16,11 @@ body{
 }
 
 .Header{
-    color: red;
+    color: rgb(255, 18, 25);
 }
 
 .HeaderSeperator{
-    border-color: red;
+    border-color: rgb(255, 18, 25);
     border-width: 4px;
     border-style:solid;
 }
@@ -47,18 +47,38 @@ body{
 }
 
 .DownloadButton button{
-    background-color: red;
-    border-style: none;
+    background-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-color: rgb(255, 18, 25);
+    height: auto;
+    max-width: 25vw;
+    border-radius: 10px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
 }
 .DownloadButton button:hover{
-    background-color: darkgray;
-    border-style: none;
+    background-color: rgb(255, 18, 25);
+    border-style: solid;
+    border-color: rgb(255, 18, 25);
 }
 .DownloadButton button:active{
-    background-color: gray;
-    border-style: none;
+    background-color: rgb(150, 18, 25);
+    border-style: solid;
+    border-color: rgb(150, 18, 25);
 }
 .DownloadButton a{
     text-decoration: none;
-    color: green;
+    font-size: 2vw;
+    color: white;
+}
+
+.DownloadButton button:hover a{
+    color: rgb(255, 255, 255);
+
+}
+
+.DownloadButton button:active a{
+    color: rgb(21, 21, 21);
 }
